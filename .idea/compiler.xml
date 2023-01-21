@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="courseAuthor_ms" />
+        <module name="appUser_ms" />
+        <module name="partener" />
+        <module name="courseSection_ms" />
+        <module name="courseMetadata" />
+        <module name="courseMedia_ms" />
+        <module name="courseLecture_ms" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="appUser_ms" target="17" />
+      <module name="courseAuthor_ms" target="17" />
+      <module name="courseLecture_ms" target="17" />
+      <module name="courseMedia_ms" target="17" />
+      <module name="courseMetadata" target="17" />
+      <module name="courseSection_ms" target="17" />
+      <module name="partener" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="appUser_ms" options="-parameters" />
+      <module name="courseAuthor_ms" options="-parameters" />
+      <module name="courseLecture_ms" options="-parameters" />
+      <module name="courseMedia_ms" options="-parameters" />
+      <module name="courseMetadata" options="-parameters" />
+      <module name="courseSection_ms" options="-parameters" />
+      <module name="partener" options="-parameters" />
+    </option>
+  </component>
+</project>

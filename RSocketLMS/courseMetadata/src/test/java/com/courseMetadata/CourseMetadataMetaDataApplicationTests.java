@@ -23,10 +23,10 @@ class TestCourseMetadata {
 
 	@Autowired
 	private RSocketRequester.Builder builder;
-
+// set up the RSocketRequester object for connecting to the RSocket server
 	@BeforeAll
 	public void setup(){
-		this.requester = this.builder
+		requester = builder
 				.transport(TcpClientTransport.create("localhost", 6565));
 	}
 	@Test
@@ -41,18 +41,19 @@ class TestCourseMetadata {
 				.expectNextCount(2)
 				.verifyComplete();
 	}
+@Test
+	void getByAutorId(){
 
-//	void getByAutorId(){
-//
-//
-//		Mono<CourseMetaDataDto> mono=requester.route("get.Smith")
-//				.retrieveMono(CourseMetaDataDto.class)
-//				.doOnNext(System.out::println);
-//
-//
-//		StepVerifier.create(mono)
-//				.expectNextCount(1)
-//				.verifyComplete();
-//	}
+		String id= "John Doe";
+		Flux<CourseMetaDataDto> flux =requester.route("${id}")
+				.retrieveFlux(CourseMetaDataDto.class)
+				.doOnNext(System.out::println)
+				.onErrorReturn(new CourseMetaDataDto())
+				.take(1);
+
+		StepVerifier.create(flux)
+				.expectNextCount(1)
+				.verifyComplete();
+	}
 
 }
