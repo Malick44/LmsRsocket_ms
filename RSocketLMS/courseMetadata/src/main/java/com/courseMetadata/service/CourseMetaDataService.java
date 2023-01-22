@@ -25,7 +25,8 @@ public class CourseMetaDataService {
     public Mono<CourseMetaDataDto> getCourseById(final String id){
 
         return this.repository.findById(id)
-                .map(ModelUtil::toDto);
+                .map(ModelUtil::toDto)
+                .switchIfEmpty(Mono.error(new IllegalArgumentException("Course not found")));
     }
 
     public Mono<CourseMetaDataDto> createCourse(Mono<CourseMetaDataDto> monoDto){

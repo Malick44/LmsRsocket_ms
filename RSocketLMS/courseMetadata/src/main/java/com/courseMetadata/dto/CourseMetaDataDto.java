@@ -1,17 +1,15 @@
 package com.courseMetadata.dto;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.List;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor(staticName = "create")
+@AllArgsConstructor()
 public class CourseMetaDataDto {
-
+    private String courseId;
     private String title;
     private String description;
     private double rating;
@@ -29,6 +27,7 @@ public class CourseMetaDataDto {
     private static Long views;
     private String CategoryId;
     private List<String> authorIds;
+
 
 
 }
