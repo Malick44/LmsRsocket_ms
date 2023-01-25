@@ -2,15 +2,15 @@ package com.courseMetadata.dto;
 
 import java.util.Objects;
 
-public class CallResponse <T>{
+public class Response<T>{
     ErrorEvent ErrorResponse;
     T successResponse;
 
-public CallResponse(T successResponse) {
+public Response(T successResponse) {
 
         this.successResponse = successResponse;
     }
-    public CallResponse(ErrorEvent errorResponse ) {
+    public Response(ErrorEvent errorResponse ) {
         this.ErrorResponse = errorResponse;
     }
 
@@ -22,11 +22,11 @@ public boolean hasError() {
         return successResponse;
     }
 
-    public static <T>CallResponse<T> with(T successResponse) {
-        return new CallResponse<>(successResponse);
+    public static <T> Response<T> with(T successResponse) {
+        return new Response<>(successResponse);
     }
 
-    public static <T>CallResponse<T> with(ErrorEvent errorResponse) {
-        return new CallResponse<>(errorResponse);
+    public static <T> Response<T> with(ErrorEvent errorResponse) {
+        return new Response<>(errorResponse);
     }
 }
