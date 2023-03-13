@@ -1,4 +1,4 @@
-package org.xlms.app.service;
+package org.xlms.app.service.errors;
 
 public class InvalidPasswordException extends RuntimeException {
 
