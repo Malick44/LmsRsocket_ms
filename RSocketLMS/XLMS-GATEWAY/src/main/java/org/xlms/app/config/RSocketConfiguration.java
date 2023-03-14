@@ -31,12 +31,13 @@ public class RSocketConfiguration {
                 .build();
 
         RSocketRequester rSocketRequester = rSocketRequesterBuilder
+                .rsocketConnector()
                 .rsocketConnector(connector -> connector
                         .dataMimeType(MediaType.APPLICATION_JSON_VALUE)
                         .metadataMimeType(MediaType.APPLICATION_JSON_VALUE)
                         .connect(TcpClientTransport.create(userApiHost, userApiPort)))
-                .rsocketStrategies(rSocketStrategies)
-                .build();
+                .rsocketStrategies(rSocketStrategies).build();
+
 
         return new RSocketServiceProxyFactory(rSocketRequester);
     }
