@@ -5,10 +5,13 @@ import com.appUser.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @Controller
+@RequestMapping("rSocket/user")
 public class RSocketUserController {
 
     private final UserService userService;
@@ -19,7 +22,7 @@ public class RSocketUserController {
     }
 
     @MessageMapping("createUser")
-    public Mono<UserDto> createUser(Mono<UserDto> userDto) {
+    public Mono<UserDto> createUser(@RequestBody Mono<UserDto> userDto) {
         return userService.createUser(userDto);
     }
 

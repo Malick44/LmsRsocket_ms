@@ -3,7 +3,7 @@
 ---
 
 server:
-  port: 5000
+  port: 7000
 #graphql:
 #  graphiql:
 #    enabled: true
@@ -51,3 +51,8 @@ spring:
 #      uri: mongodb://admin:pass@localhost:27017/course
 #      auto-ddl: create-drop
 #  >>>>>>> main
+
+userapi:
+  host: localhost
+  port: 7001
+  route: rSocket/user/

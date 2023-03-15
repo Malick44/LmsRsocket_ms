@@ -1,0 +1,21 @@
+
+  server:
+    port: 7001
+
+
+  mongodb:
+        version: 6.0.3
+        database: test
+        auto-index-creation: true
+        authentication-database: admin
+        host: localhost
+        port: 27017
+        username:
+        password: 
+  jpa:
+        properties:
+          hibernate:
+            dialect: org.hibernate.ogm.datastore.mongodb.MongoDBDialect
+        database-platform: org.hibernate.ogm.datastore.mongodb.impl.MongoDBDialect
+        database: MONGO
+  #  =======

@@ -12,8 +12,8 @@
         <module name="appUser_ms" />
         <module name="partener" />
         <module name="courseSection_ms" />
-        <module name="courseMetadata" />
         <module name="courseMedia_ms" />
+        <module name="courseMetadata" />
         <module name="courseLecture_ms" />
       </profile>
     </annotationProcessing>
