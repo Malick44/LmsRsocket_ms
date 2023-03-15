@@ -31,7 +31,12 @@ public class UserService {
                      return userDto
                              .map(ModelUtil::toEntity)
                              .flatMap(this.userRepository::save)
-                             .map(ModelUtil::toDto);
+                             .map(ModelUtil::toDto)
+                             .map(user -> {
+                                 System.out.println("User created successfully");
+                                 return user;
+                             });
+//            System.out.println("User created successfully");
 
         }
 

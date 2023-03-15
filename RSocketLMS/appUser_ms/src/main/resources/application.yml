@@ -2,20 +2,18 @@
   server:
     port: 7001
 
+  data:
+    mongodb:
+      uri: mongodb://admin:pass@localhost:27017/Xlms?authSource=admin
+      database: Xlms
 
-  mongodb:
-        version: 6.0.3
-        database: test
-        auto-index-creation: true
-        authentication-database: admin
-        host: localhost
-        port: 27017
-        username:
-        password: 
   jpa:
         properties:
           hibernate:
-            dialect: org.hibernate.ogm.datastore.mongodb.MongoDBDialect
-        database-platform: org.hibernate.ogm.datastore.mongodb.impl.MongoDBDialect
-        database: MONGO
+        #dialect: org.hibernate.ogm.datastore.mongodb.MongoDBDialect
+            hbm2ddl.auto: update
+        #database-platform: org.hibernate.ogm.datastore.mongodb.impl.MongoDBDialect
+        show-sql: true
+        generate-ddl: true
+
   #  =======

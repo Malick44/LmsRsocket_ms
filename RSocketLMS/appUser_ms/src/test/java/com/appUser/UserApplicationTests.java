@@ -1,7 +1,9 @@
 package com.appUser;
 
+import com.appUser.controller.RSocketUserController;
 import com.appUser.dto.UserDto;
 import com.appUser.repository.UserRepository;
+import lombok.RequiredArgsConstructor;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -13,14 +15,18 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @SpringBootTest
+@RequiredArgsConstructor
 //@AutoConfigureRSocketClient
 class UserApplicationTests {
+
 
 	@Autowired
 	private RSocketRequester.Builder requesterBuilder;
 
 	@Autowired
 	private UserRepository userRepository;
+	@Autowired
+	private RSocketUserController rSocketUserController;
 
 	@Test
 	public void testCreateUser() {
@@ -49,10 +55,17 @@ class UserApplicationTests {
 				})
 				.verifyComplete();
 	}
-	@Test
-	void contextLoads() {
+@Test
+void testCreateAUser(){
+		UserDto userDto = new UserDto();
+		userDto.setFirstName("John");
+		userDto.setLastName("Doe");
+		userDto.setEmail("johndoe@example.com");
 
-
-	}
+		requesterBuilder.tcp("localhost", 7001)
+				.route("createUser")
+		.data(Mono.just(userDto), UserDto.class);
+	rSocketUserController.createUser(Mono.just(userDto));
+}
 
 }

@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDateTime;
 import java.util.List;
 @Data
 @AllArgsConstructor
@@ -19,8 +20,10 @@ public class UserDto {
     private String password;
     private String email;
     private String phoneNumber;
+    private LocalDateTime createDate = LocalDateTime.now();
+    private Object createdBy;
     private Address address;
-    private String profilePic;
+     private String profilePic;
     private String bio;
     private String linkedInUrl;
     private String twitterUrl;

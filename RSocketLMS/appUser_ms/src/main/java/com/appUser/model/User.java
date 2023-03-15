@@ -14,7 +14,7 @@ import java.util.List;
 @AllArgsConstructor
 @Getter
 @Setter
-@Document
+@Document("App_User")
 public class User {
     @Id
     private String id;
