@@ -16,8 +16,6 @@ import org.xlms.app.dto.UserDto;
 import org.xlms.app.service.entinties.AppUserClient;
 import reactor.core.publisher.Mono;
 
-import java.util.stream.DoubleStream;
-
 @Configuration
 public class RSocketConfiguration {
 
@@ -27,31 +25,36 @@ public class RSocketConfiguration {
     @Value("${userapi.port}")
     private int userApiPort;
 
-    @Value("${userapi.route}")
-    private String userApiRoute;
     @Autowired
     RSocketRequester.Builder rSocketRequesterBuilder;
 
     @Bean
-    public RSocketServiceProxyFactory rSocketServiceProxyFactory(RSocketRequester.Builder rSocketRequesterBuilder) {
+    public RSocketServiceProxyFactory rSocketServiceProxyFactory(RSocketRequester.Builder rSocketRequesterBuilder, String userApiHost, int userApiPort) {
         RSocketStrategies rStrategies = RSocketStrategies.builder()
                 .encoder(new Jackson2JsonEncoder())
                 .decoder(new Jackson2JsonDecoder())
                 .build();
 
-        RSocketRequester rSocketRequester = rSocketRequesterBuilder
+        RSocketRequester rSocketRequester = this.rSocketRequesterBuilder
                 .rsocketStrategies(rStrategies)
                 .dataMimeType(MediaType.APPLICATION_JSON)
                 .metadataMimeType(MediaType.APPLICATION_JSON)
-                .connect(TcpClientTransport.create(userApiHost, userApiPort))
+                .connect(TcpClientTransport.create(this.userApiHost, this.userApiPort))
                 .block();
 
         return RSocketServiceProxyFactory.builder(rSocketRequester).build();
     }
 
-    @Bean
-    public AppUserClient appUserClient(RSocketServiceProxyFactory rSocketServiceProxyFactory) {
-        return rSocketServiceProxyFactory.createClient(AppUserClient.class);
+//    @Bean
+//    public <T> T createClient(Class<T> clientClass, RSocketServiceProxyFactory rSocketServiceProxyFactory) {
+//        return rSocketServiceProxyFactory.createClient(clientClass);
+//    }
+
+    @Autowired
+    public void initClients(RSocketRequester.Builder rSocketRequesterBuilder, RSocketServiceProxyFactory rSocketServiceProxyFactory) {
+       RSocketServiceProxyFactory userApiProxyFactory = rSocketServiceProxyFactory(rSocketRequesterBuilder, userApiHost, userApiPort);
+        AppUserClient appUserClient = createClient(AppUserClient.class, userApiProxyFactory);
+        // Use appUserClient here or assign it to an instance variable for later use
     }
 
     @Bean
@@ -71,8 +74,4 @@ public class RSocketConfiguration {
                     .build())).subscribe(System.out::println);
         };
     }
-
-
-
-
 }

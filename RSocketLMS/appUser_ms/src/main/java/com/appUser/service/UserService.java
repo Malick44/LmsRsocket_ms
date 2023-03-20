@@ -27,15 +27,12 @@ public class UserService {
                .map(ModelUtil::toDto);
 
         }
-        public Mono<UserDto> createUser(Mono<UserDto> userDto){
-                     return userDto
+        public Mono<UserDto> createUser(Mono<UserDto> monoUserDto){
+                     return monoUserDto
                              .map(ModelUtil::toEntity)
                              .flatMap(this.userRepository::save)
-                             .map(ModelUtil::toDto)
-                             .map(user -> {
-                                 System.out.println("User created successfully");
-                                 return user;
-                             });
+                             .map(ModelUtil::toDto);
+
 //            System.out.println("User created successfully");
 
         }

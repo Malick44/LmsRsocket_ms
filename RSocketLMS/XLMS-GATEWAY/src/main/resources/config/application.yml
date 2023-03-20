@@ -15,8 +15,6 @@ logging:
   level:
     org.springframework: info
 spring:
-  profiles:
-    active: dev
 #  jpa:
 #    show-sql: true
 #    hibernate:
@@ -55,4 +53,4 @@ spring:
 userapi:
   host: localhost
   port: 7001
-  route: rSocket/user/
+  route: user.

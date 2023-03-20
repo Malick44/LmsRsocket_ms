@@ -1,29 +1,20 @@
 package com.courseMetadata;
 
 import com.courseMetadata.dto.CourseMetaDataDto;
-import com.courseMetadata.repository.courseMedaDataRepository;
 import com.courseMetadata.service.CourseMetaDataService;
 import io.rsocket.transport.netty.client.TcpClientTransport;
 import org.jeasy.random.EasyRandom;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.messaging.rsocket.RSocketRequester;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.test.StepVerifier;
-
-import java.util.Objects;
-
-import static org.mockito.Mockito.when;
-import static org.mockito.Mockito.withSettings;
-
 @SpringBootTest
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @ExtendWith(MockitoExtension.class)
@@ -35,7 +26,7 @@ class TestCourseMetadata {
 
 	@Autowired
 	private RSocketRequester.Builder builder;
-// set up the RSocketRequester object for connecting to the RSocket server
+	// set up the RSocketRequester object for connecting to the RSocket server
 	@BeforeAll
 	public void setup(){
 		requester = builder
@@ -80,7 +71,7 @@ class TestCourseMetadata {
 
 
 		CourseMetaDataDto mockdto= random.nextObject(CourseMetaDataDto.class);
-		Mono<CourseMetaDataDto> monodto = Mono.just(new CourseMetaDataDto());
+		//Mono<CourseMetaDataDto> monodto = Mono.just(new CourseMetaDataDto());
 		//when(this.service.createCourse(Mono.just(mockdto))).thenReturn(monodto);
 		Mono<CourseMetaDataDto> mono = this.requester.route("course.create")
 				.data(mockdto)

@@ -2,6 +2,7 @@ package com.appUser.controller;
 
 import com.appUser.dto.UserDto;
 import com.appUser.service.UserService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.stereotype.Controller;
@@ -10,21 +11,18 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-
+@RequiredArgsConstructor
 @Controller
-@RequestMapping("rSocket/user/")
+@RequestMapping("user")
 public class RSocketUserController {
 
     private final UserService userService;
 
-    @Autowired
-    public RSocketUserController(UserService userService) {
-        this.userService = userService;
-    }
 
-    @PostMapping ("createUser")
-    public Mono<UserDto> createUser(@RequestBody Mono<UserDto> userDto) {
-        return userService.createUser(userDto);
+    @MessageMapping ("create")
+    public Mono<UserDto> createUser(Mono<UserDto> monoUserDto) {
+
+        return userService.createUser(monoUserDto);
     }
 
     @MessageMapping("getUserById")
