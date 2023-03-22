@@ -5,7 +5,7 @@ import org.xlms.app.dto.UserDto;
 import reactor.core.publisher.Mono;
 
 public interface AppUserClient {
-    @RSocketExchange("rSocket.user.create")
+    @RSocketExchange("user.create")
     public Mono<UserDto> createUser(Mono<UserDto> userDto);
 
 }

@@ -1,6 +1,7 @@
 package org.xlms.app.config;
 
 import io.rsocket.transport.netty.client.TcpClientTransport;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.ApplicationRunner;
@@ -17,43 +18,50 @@ import org.xlms.app.service.entinties.AppUserClient;
 import reactor.core.publisher.Mono;
 
 @Configuration
+@Slf4j
 public class RSocketConfiguration {
 
-    @Value("${userapi.host}")
-    private String userApiHost;
+    private final String userApiHost;
+    private final int userApiPort;
+    private final RSocketRequester.Builder rSocketRequesterBuilder;
 
-    @Value("${userapi.port}")
-    private int userApiPort;
-
-    @Autowired
-    RSocketRequester.Builder rSocketRequesterBuilder;
+    public RSocketConfiguration(RSocketRequester.Builder rSocketRequesterBuilder,
+                                @Value("${userapi.host}") String userApiHost,
+                                @Value("${userapi.port}") int userApiPort) {
+        this.rSocketRequesterBuilder = rSocketRequesterBuilder;
+        this.userApiHost = userApiHost;
+        this.userApiPort = userApiPort;
+        log.info("userApiHost: " + userApiHost);
+        log.info("userApiPort: " + userApiPort);
+    }
 
     @Bean
-    public RSocketServiceProxyFactory rSocketServiceProxyFactory(RSocketRequester.Builder rSocketRequesterBuilder, String userApiHost, int userApiPort) {
+    public RSocketServiceProxyFactory rSocketServiceProxyFactory() {
         RSocketStrategies rStrategies = RSocketStrategies.builder()
                 .encoder(new Jackson2JsonEncoder())
                 .decoder(new Jackson2JsonDecoder())
                 .build();
 
-        RSocketRequester rSocketRequester = this.rSocketRequesterBuilder
+        RSocketRequester rSocketRequester = rSocketRequesterBuilder
                 .rsocketStrategies(rStrategies)
                 .dataMimeType(MediaType.APPLICATION_JSON)
                 .metadataMimeType(MediaType.APPLICATION_JSON)
-                .connect(TcpClientTransport.create(this.userApiHost, this.userApiPort))
+                .connect(TcpClientTransport.create(userApiHost, userApiPort))
                 .block();
 
         return RSocketServiceProxyFactory.builder(rSocketRequester).build();
     }
 
-//    @Bean
+
+
 //    public <T> T createClient(Class<T> clientClass, RSocketServiceProxyFactory rSocketServiceProxyFactory) {
 //        return rSocketServiceProxyFactory.createClient(clientClass);
 //    }
 
-    @Autowired
-    public void initClients(RSocketRequester.Builder rSocketRequesterBuilder, RSocketServiceProxyFactory rSocketServiceProxyFactory) {
-       RSocketServiceProxyFactory userApiProxyFactory = rSocketServiceProxyFactory(rSocketRequesterBuilder, userApiHost, userApiPort);
-        AppUserClient appUserClient = createClient(AppUserClient.class, userApiProxyFactory);
+@Bean
+   public AppUserClient initClients(RSocketServiceProxyFactory factory) {
+       //RSocketServiceProxyFactory userApiProxyFactory = rSocketServiceProxyFactory(rSocketRequesterBuilder, userApiHost, userApiPort);
+          return factory.createClient(AppUserClient.class);
         // Use appUserClient here or assign it to an instance variable for later use
     }
 
@@ -71,7 +79,8 @@ public class RSocketConfiguration {
                     .password("password")
                     .email("huiiu@gjgg.com")
                     .phoneNumber("1234567890")
-                    .build())).subscribe(System.out::println);
+                    .build())).block();
+                   // .subscribe(System.out::println);
         };
     }
 }
