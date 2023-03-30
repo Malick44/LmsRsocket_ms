@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/LmsRsocket_ms.iml" filepath="$PROJECT_DIR$/.idea/LmsRsocket_ms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RSocketLMS/appUser_ms/appUser_ms.iml" filepath="$PROJECT_DIR$/RSocketLMS/appUser_ms/appUser_ms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RSocketLMS/courseAuthor_ms/courseAuthor_ms.iml" filepath="$PROJECT_DIR$/RSocketLMS/courseAuthor_ms/courseAuthor_ms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RSocketLMS/courseLecture_ms/courseLecture_ms.iml" filepath="$PROJECT_DIR$/RSocketLMS/courseLecture_ms/courseLecture_ms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RSocketLMS/courseMedia_ms/courseMedia_ms.iml" filepath="$PROJECT_DIR$/RSocketLMS/courseMedia_ms/courseMedia_ms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RSocketLMS/courseMetadata/courseMetadata.iml" filepath="$PROJECT_DIR$/RSocketLMS/courseMetadata/courseMetadata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RSocketLMS/courseSection_ms/courseSection_ms.iml" filepath="$PROJECT_DIR$/RSocketLMS/courseSection_ms/courseSection_ms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RSocketLMS/partener/partener.iml" filepath="$PROJECT_DIR$/RSocketLMS/partener/partener.iml" />
+    </modules>
+  </component>
+</project>

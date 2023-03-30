@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="901e266b-70bc-4098-9337-a0a5c2ab3066" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.workspace.xml.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LmsRsocket_ms.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_4_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_90.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_commons_1_10_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_observation_1_10_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_86_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_86_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_86_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_86_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_86_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_86_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_86_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_86_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_86_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_86_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_86_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_classes_macos_4_1_86_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_x86_64_4_1_86_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_86_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_classes_epoll_4_1_86_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_86_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_86_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_core_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_http_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_test_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rsocket_rsocket_core_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rsocket_rsocket_transport_netty_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_23_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jeasy_easy_random_core_5_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_4_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_record_codec_4_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_4_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_reactivestreams_4_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_2_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_reactive_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_rsocket_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_6_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_6_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_6_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_6_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_6_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_6_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_6_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_6_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_6_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_6_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_33.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/XlmsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/aop/LoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/config/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/config/RSocketConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/config/XlmsConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/dto/AddressDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/model/AbstractAuditingEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/model/Assignment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/model/Author.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/model/Authority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/model/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/model/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/model/Instructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/model/Organisation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/model/Quizz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/model/Rating.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/model/Section.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/model/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/repository/AssignmentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/repository/AuthorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/repository/AuthorityRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/repository/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/repository/CourseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/repository/InstructorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/repository/OrganisationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/repository/QuizzRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/repository/RatingRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/repository/SectionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/repository/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/service/dto/AdminUserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/service/dto/PasswordChangeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/service/dto/UserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/service/dto/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/service/entinties/AppUserClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/service/errors/CourseInfoNotFindException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/service/errors/EmailAlreadyUsedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/service/errors/InvalidPasswordException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/service/errors/UsernameAlreadyUsedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/service/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/service/mapper/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/java/org/xlms/app/service/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/resources/config/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/resources/docker-compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/resources/docker_compose_jenkins.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/resources/i18n/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/resources/i18n/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/resources/i18n/messages_fr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/resources/templates/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/resources/templates/mail/activationEmail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/resources/templates/mail/creationEmail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/main/resources/templates/mail/passwordResetEmail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/XLMS-GATEWAY/src/test/java/org/xlms/app/XlmsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/src/main/java/com/appUser/AppUserApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/src/main/java/com/appUser/ApplicationRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/src/main/java/com/appUser/controller/RSocketUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/src/main/java/com/appUser/dto/AddressDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/src/main/java/com/appUser/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/src/main/java/com/appUser/model/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/src/main/java/com/appUser/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/src/main/java/com/appUser/repository/AddressRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/src/main/java/com/appUser/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/src/main/java/com/appUser/repository/UserRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/src/main/java/com/appUser/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/src/main/java/com/appUser/util/ModelUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/appUser_ms/src/test/java/com/appUser/UserApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseAuthor_ms/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseAuthor_ms/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseAuthor_ms/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseAuthor_ms/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseAuthor_ms/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseAuthor_ms/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseAuthor_ms/src/main/java/courseAuthor/CourseAuthorApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseAuthor_ms/src/main/java/courseAuthor/dto/AuthorDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseAuthor_ms/src/main/java/courseAuthor/model/Author.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseAuthor_ms/src/main/java/courseAuthor/repository/AuthorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseAuthor_ms/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseAuthor_ms/src/test/java/courseAuthor/CourseAuthorApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseLecture_ms/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseLecture_ms/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseLecture_ms/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseLecture_ms/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseLecture_ms/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseLecture_ms/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseLecture_ms/src/main/java/com/courseLecture/CourseLectureMsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseLecture_ms/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseLecture_ms/src/test/java/com/courseLecture/CourseLectureMsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMedia_ms/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMedia_ms/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMedia_ms/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMedia_ms/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMedia_ms/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMedia_ms/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMedia_ms/src/main/java/com/courseMedia/CourseMediaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMedia_ms/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMedia_ms/src/test/java/com/courseMedia/CourseMediaApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/src/main/java/com/courseMetadata/CourseMetadataApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/src/main/java/com/courseMetadata/DataInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/src/main/java/com/courseMetadata/controller/CourseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/src/main/java/com/courseMetadata/dto/CourseMetaDataDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/src/main/java/com/courseMetadata/dto/ErrorEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/src/main/java/com/courseMetadata/dto/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/src/main/java/com/courseMetadata/dto/StatusCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/src/main/java/com/courseMetadata/model/CourseMetaData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/src/main/java/com/courseMetadata/repository/courseMedaDataRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/src/main/java/com/courseMetadata/service/CourseMetaDataService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/src/main/java/com/courseMetadata/util/ModelUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/src/main/resources/.application.properties.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseMetadata/src/test/java/com/courseMetadata/CourseMetadataMetaDataApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseSection_ms/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseSection_ms/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseSection_ms/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseSection_ms/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseSection_ms/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseSection_ms/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseSection_ms/src/main/java/courseSection/CourseSectionMsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseSection_ms/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/courseSection_ms/src/test/java/courseSection/CourseSectionMsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/partener/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/partener/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/partener/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/partener/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/partener/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/partener/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/partener/src/main/java/com/partener/PartenerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/partener/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSocketLMS/partener/src/test/java/com/partener/PartenerApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NRTrn101ChjYiHwIzgI7VZ3rSK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="901e266b-70bc-4098-9337-a0a5c2ab3066" name="Changes" comment="" />
+      <created>1679626095929</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679626095929</updated>
+      <workItem from="1679626097467" duration="462000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
